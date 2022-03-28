@@ -8,6 +8,16 @@
   <artifactId>GitHub-from-eclipse</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/junit/junit -->
+	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.13.2</version>
+	    <scope>test</scope>
+	</dependency>
+  	
+  </dependencies>
   <name>GitHub-from-eclipse</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -17,15 +27,6 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
