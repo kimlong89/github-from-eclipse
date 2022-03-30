@@ -10,7 +10,7 @@ public class SampleTest {
 	}
 	@Test
 	public void simpleFail() {
-		int a = 1;
+		int a = 2;
 		int b = 2;
 		assertTrue(a + b == 4);
 	}
